@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+#dnd {
+  width: 500px;
+  height: 250px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: rgb(221, 250, 250);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 50px 50px;
+}
+
+#dnd-dnd {
+  text-align: center;
+  font-size: 28px;
+  color: blue;
+  text-transform: uppercase;
+}
+
+#dnd-or {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: blue;
+}
+
+#dnd-click {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 22px;
+  color: blue;
+  text-decoration: underline;
+}
+
+#input-file {
+  display: none;
+}
+
+#images {
+  margin-top: 50px;
+  display: flex;
+}
+
+.img {
+  width: 200px;
+}
+
+.img-container {
+  width: 220px;
+  padding: 10px;
+  border: 1px solid blue;
+  position: relative;
+  margin-left: 20px;
+}
+
+.close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border: 1px solid #000;
+  padding: 7px 8px 7px 8px;
+  border-radius: 50%;
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+}
+
